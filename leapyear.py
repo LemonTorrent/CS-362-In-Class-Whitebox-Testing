@@ -1,7 +1,7 @@
 def isLeap( year ):
-    if (x % 4 == 0):
-        if (x % 100 == 0):
-            if (x % 400 == 0):
+    if (year % 4 == 0):
+        if (year % 100 == 0):
+            if (year % 400 == 0):
                 return True
             else:
                 return False
